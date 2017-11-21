@@ -1,0 +1,15 @@
+.sprite {
+	width: $frame-width;
+	height: $frame-height;
+	background: url(../img/sprite.png) no-repeat;
+	background-size: ($frame-width * $num-frames) $frame-height;
+	margin: 2.4rem 0;
+}
+
+.title,
+.status,
+.attribution {
+	color: #666;
+	font-size: 1.2rem;
+	margin-top: 1.2rem;
+}

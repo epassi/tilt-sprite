@@ -1,0 +1,9 @@
+.prototype {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	align-items: center;
+	justify-content: flex-start;
+	background: #000;
+	cursor: ew-resize;
+}
