@@ -1,13 +1,12 @@
 Tilt Sprite
 ====
 
-SCSS-based boilerplate for personal prototyping projects. Includes:
-* A default set of SCSS files for SMACSS setup.
-* Gruntfile for compiling SCSS files and maintaining a separate distribution folder.
-* Bower.js for jQuery.
+This prototype tests the JavaScript `deviceorientation` event to see how the accelerometer might be used in mobile web apps. It uses the tilt of the device to control the motion of an animation sprite.
 
-Directions:
+Run `grunt` to build the project. Deployable build is in /builds/dev/.
 
-1. Run `npm install`.
-2. Run `bower install`.
-3. Run `grunt`. Build preview will open in browser.
+[Live Demo](https://emiliopassi.com/lab/tilt-sprite/)
+
+![Demo](README/demo.gif)
+
+Images courtesy of [NASA EPIC Team](https://epic.gsfc.nasa.gov/)
